@@ -15,7 +15,7 @@ public class banggocquay : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Quaternion offset = Quaternion.Euler(-60f, 0f, 0f); 
+        Quaternion offset = Quaternion.Euler(0f, 0f, 0f); 
         transform.rotation = bk.rotation * offset;
        // transform.rotation = bk.rotation;
         transform.position=toado.position;

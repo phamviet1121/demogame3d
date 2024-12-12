@@ -22,11 +22,12 @@ public class no : MonoBehaviour
             Destroy(gameObject);
           
         }
+        Debug.Log($"{time}");
     }
     public void OnCollisionEnter(Collision collision)
     {
 
-        Invoke("vuno", 2f);
+        Invoke("vuno", 1f);
     }
     void vuno()
     {

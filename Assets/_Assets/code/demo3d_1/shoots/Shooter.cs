@@ -56,6 +56,7 @@ using UnityEngine;
 using TMPro;
 public class Shooter : MonoBehaviour
 {
+    public GameObject banPrefab;
     public GameObject grenadePrefab;    // Prefab của lựu đạn
     public Transform throwPoint;       // Điểm ném (vị trí xuất phát của lựu đạn)
     public float throwForce = 500f;    // Lực ném (được áp dụng trực tiếp)
@@ -69,15 +70,17 @@ public class Shooter : MonoBehaviour
     private bool isReloading = false;
     public TextMeshProUGUI soviendan_txt;
     public GameObject thaydan_txt;
-    public float khoangthoigianbandan;
-    public float newkhoangthoigianbandan=0.3f;
+    //public float khoangthoigianbandan;
+    // public float newkhoangthoigianbandan=0.3f;
+    public bool khoangcachgiuacaclanban;
+    public Animator amin;
 
     private void Start()
     {
         soviendan = newsoviendan;
         thaydan_txt.SetActive(false);
         soviendan_txt.text = soviendan.ToString();
-
+        khoangcachgiuacaclanban = false;
     }
     void Update()
     {
@@ -90,15 +93,17 @@ public class Shooter : MonoBehaviour
         //     throwAngle -= 360;
         // }
 
-        khoangthoigianbandan-=Time.deltaTime;
+        //khoangthoigianbandan-=Time.deltaTime;
         // Kiểm tra xem người chơi có nhấn phím "J" không
-        if (Input.GetKeyDown(KeyCode.J)&&soviendan>=1&& !isReloading&& khoangthoigianbandan<=0)
+        if (Input.GetKeyDown(KeyCode.J) && soviendan >= 1 && !isReloading && !khoangcachgiuacaclanban /*khoangthoigianbandan<=0*/)
         {
             soviendan -= 1;
-            ThrowGrenade();
+            //ThrowGrenade();
             Debug.Log($"{soviendan}");
-            soviendan_txt.text= soviendan.ToString();
-            khoangthoigianbandan = newkhoangthoigianbandan;
+            soviendan_txt.text = soviendan.ToString();
+            //khoangthoigianbandan = newkhoangthoigianbandan;
+            amin.SetTrigger("shoot");
+            khoangcachgiuacaclanban = true;
         }
         if (soviendan <= 0 && !isReloading)
         {
@@ -109,46 +114,58 @@ public class Shooter : MonoBehaviour
             StartReloading();
         }
     }
+    public void khoangcachban()
+    {
+        khoangcachgiuacaclanban = false;
+    }
+
     void StartReloading()
     {
+        amin.SetTrigger("reload");
         thaydan_txt.SetActive(true);
         isReloading = true; // Đặt trạng thái nạp đạn
         Debug.Log("Đang nạp đạn...");
-        Invoke("thaydan", thoigiannapdan); // Bắt đầu quá trình nạp đạn
+        // Invoke("thaydan", thoigiannapdan); // Bắt đầu quá trình nạp đạn
     }
     void thaydan()
     {
+
         soviendan = newsoviendan;
         isReloading = false;
         thaydan_txt.SetActive(false);
         soviendan_txt.text = soviendan.ToString();
-
+       
+    }
+    void banluudan()
+    {
+        // GameObject ban = Instantiate(banPrefab, throwPoint.position, throwPoint.rotation);
+        GameObject ban = Instantiate(banPrefab, throwPoint.position, throwPoint.rotation, throwPoint);
     }    
-
     void ThrowGrenade()
     {
+        //GameObject ban = Instantiate(banPrefab, throwPoint.position, throwPoint.rotation);
         // Tạo lựu đạn tại vị trí ném
         GameObject grenade = Instantiate(grenadePrefab, throwPoint.position, throwPoint.rotation);
 
         // Lấy Rigidbody của lựu đạn
-         //Rigidbody rb = grenade.GetComponent<Rigidbody>();
+        //Rigidbody rb = grenade.GetComponent<Rigidbody>();
 
         //if (rb != null)
         //{
-           // float adjustedAngle = throwAngle + a;
-            // Tính toán hướng ném dựa trên góc ném và hướng của throwPoint
-           // float angleInRadians = adjustedAngle * Mathf.Deg2Rad;
+        // float adjustedAngle = throwAngle + a;
+        // Tính toán hướng ném dựa trên góc ném và hướng của throwPoint
+        // float angleInRadians = adjustedAngle * Mathf.Deg2Rad;
 
-            // Tính toán hướng ném
-           // Vector3 forward = throwPoint.forward;  // Hướng chính (XZ)
-           // Vector3 upward = throwPoint.up;        // Hướng lên (Y)
-           // Vector3 throwDirection = (forward * Mathf.Cos(angleInRadians)) + (upward * Mathf.Sin(-angleInRadians));
+        // Tính toán hướng ném
+        // Vector3 forward = throwPoint.forward;  // Hướng chính (XZ)
+        // Vector3 upward = throwPoint.up;        // Hướng lên (Y)
+        // Vector3 throwDirection = (forward * Mathf.Cos(angleInRadians)) + (upward * Mathf.Sin(-angleInRadians));
 
-            // Áp dụng lực cố định theo hướng tính toán
-           // rb.AddForce(throwDirection.normalized * throwForce);
-           grenade.GetComponent<Rigidbody>().AddForce(throwPoint.forward * throwForce, ForceMode.Impulse);
-       // }
+        // Áp dụng lực cố định theo hướng tính toán
+        // rb.AddForce(throwDirection.normalized * throwForce);
+        grenade.GetComponent<Rigidbody>().AddForce(throwPoint.forward * throwForce, ForceMode.Impulse);
+        // }
 
-       
+
     }
 }
