@@ -1,0 +1,135 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\game demo\\game_clone_driver\\demogame3d_1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DDC69F1E-5CBE-3151-9B34-6A1718768E32}|Assembly-CSharp.csproj|d:\\game demo\\game_clone_driver\\demogame3d_1\\assets\\_assets\\code\\demo6\\code_rocket\\grenadebullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDC69F1E-5CBE-3151-9B34-6A1718768E32}|Assembly-CSharp.csproj|solutionrelative:assets\\_assets\\code\\demo6\\code_rocket\\grenadebullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDC69F1E-5CBE-3151-9B34-6A1718768E32}|Assembly-CSharp.csproj|d:\\game demo\\game_clone_driver\\demogame3d_1\\assets\\_assets\\code\\demo6\\code_rifle\\automaticshooting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDC69F1E-5CBE-3151-9B34-6A1718768E32}|Assembly-CSharp.csproj|solutionrelative:assets\\_assets\\code\\demo6\\code_rifle\\automaticshooting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDC69F1E-5CBE-3151-9B34-6A1718768E32}|Assembly-CSharp.csproj|d:\\game demo\\game_clone_driver\\demogame3d_1\\assets\\_assets\\code\\demo6\\code_rifle\\gunraycaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDC69F1E-5CBE-3151-9B34-6A1718768E32}|Assembly-CSharp.csproj|solutionrelative:assets\\_assets\\code\\demo6\\code_rifle\\gunraycaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDC69F1E-5CBE-3151-9B34-6A1718768E32}|Assembly-CSharp.csproj|D:\\game demo\\game_clone_driver\\demogame3d_1\\assets\\_assets\\code\\demo6\\code_zombies\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDC69F1E-5CBE-3151-9B34-6A1718768E32}|Assembly-CSharp.csproj|solutionrelative:assets\\_assets\\code\\demo6\\code_zombies\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDC69F1E-5CBE-3151-9B34-6A1718768E32}|Assembly-CSharp.csproj|D:\\game demo\\game_clone_driver\\demogame3d_1\\assets\\_assets\\code\\demo6\\gunswitcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDC69F1E-5CBE-3151-9B34-6A1718768E32}|Assembly-CSharp.csproj|solutionrelative:assets\\_assets\\code\\demo6\\gunswitcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDC69F1E-5CBE-3151-9B34-6A1718768E32}|Assembly-CSharp.csproj|D:\\game demo\\game_clone_driver\\demogame3d_1\\assets\\_assets\\code\\demo6\\gunammo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDC69F1E-5CBE-3151-9B34-6A1718768E32}|Assembly-CSharp.csproj|solutionrelative:assets\\_assets\\code\\demo6\\gunammo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDC69F1E-5CBE-3151-9B34-6A1718768E32}|Assembly-CSharp.csproj|D:\\game demo\\game_clone_driver\\demogame3d_1\\assets\\_assets\\code\\demo6\\ammotextbinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDC69F1E-5CBE-3151-9B34-6A1718768E32}|Assembly-CSharp.csproj|solutionrelative:assets\\_assets\\code\\demo6\\ammotextbinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GrenadeBullet.cs",
+              "DocumentMoniker": "D:\\game demo\\game_clone_driver\\demogame3d_1\\Assets\\_Assets\\code\\demo6\\code_rocket\\GrenadeBullet.cs",
+              "RelativeDocumentMoniker": "Assets\\_Assets\\code\\demo6\\code_rocket\\GrenadeBullet.cs",
+              "ToolTip": "D:\\game demo\\game_clone_driver\\demogame3d_1\\Assets\\_Assets\\code\\demo6\\code_rocket\\GrenadeBullet.cs",
+              "RelativeToolTip": "Assets\\_Assets\\code\\demo6\\code_rocket\\GrenadeBullet.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAgwDYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T20:38:08.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Gunraycaster.cs",
+              "DocumentMoniker": "D:\\game demo\\game_clone_driver\\demogame3d_1\\Assets\\_Assets\\code\\demo6\\code_Rifle\\Gunraycaster.cs",
+              "RelativeDocumentMoniker": "Assets\\_Assets\\code\\demo6\\code_Rifle\\Gunraycaster.cs",
+              "ToolTip": "D:\\game demo\\game_clone_driver\\demogame3d_1\\Assets\\_Assets\\code\\demo6\\code_Rifle\\Gunraycaster.cs",
+              "RelativeToolTip": "Assets\\_Assets\\code\\demo6\\code_Rifle\\Gunraycaster.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T20:18:35.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Health.cs",
+              "DocumentMoniker": "D:\\game demo\\game_clone_driver\\demogame3d_1\\Assets\\_Assets\\code\\demo6\\code_zombies\\Health.cs",
+              "RelativeDocumentMoniker": "Assets\\_Assets\\code\\demo6\\code_zombies\\Health.cs",
+              "ToolTip": "D:\\game demo\\game_clone_driver\\demogame3d_1\\Assets\\_Assets\\code\\demo6\\code_zombies\\Health.cs",
+              "RelativeToolTip": "Assets\\_Assets\\code\\demo6\\code_zombies\\Health.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAowBoAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T19:59:23.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AutomaticShooting.cs",
+              "DocumentMoniker": "D:\\game demo\\game_clone_driver\\demogame3d_1\\Assets\\_Assets\\code\\demo6\\code_Rifle\\AutomaticShooting.cs",
+              "RelativeDocumentMoniker": "Assets\\_Assets\\code\\demo6\\code_Rifle\\AutomaticShooting.cs",
+              "ToolTip": "D:\\game demo\\game_clone_driver\\demogame3d_1\\Assets\\_Assets\\code\\demo6\\code_Rifle\\AutomaticShooting.cs",
+              "RelativeToolTip": "Assets\\_Assets\\code\\demo6\\code_Rifle\\AutomaticShooting.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T19:25:17.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AmmoTextBinder.cs",
+              "DocumentMoniker": "D:\\game demo\\game_clone_driver\\demogame3d_1\\Assets\\_Assets\\code\\demo6\\AmmoTextBinder.cs",
+              "RelativeDocumentMoniker": "Assets\\_Assets\\code\\demo6\\AmmoTextBinder.cs",
+              "ToolTip": "D:\\game demo\\game_clone_driver\\demogame3d_1\\Assets\\_Assets\\code\\demo6\\AmmoTextBinder.cs",
+              "RelativeToolTip": "Assets\\_Assets\\code\\demo6\\AmmoTextBinder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T13:24:22.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GunAmmo.cs",
+              "DocumentMoniker": "D:\\game demo\\game_clone_driver\\demogame3d_1\\Assets\\_Assets\\code\\demo6\\GunAmmo.cs",
+              "RelativeDocumentMoniker": "Assets\\_Assets\\code\\demo6\\GunAmmo.cs",
+              "ToolTip": "D:\\game demo\\game_clone_driver\\demogame3d_1\\Assets\\_Assets\\code\\demo6\\GunAmmo.cs",
+              "RelativeToolTip": "Assets\\_Assets\\code\\demo6\\GunAmmo.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACcAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T18:55:00.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GunSwitcher.cs",
+              "DocumentMoniker": "D:\\game demo\\game_clone_driver\\demogame3d_1\\Assets\\_Assets\\code\\demo6\\GunSwitcher.cs",
+              "RelativeDocumentMoniker": "Assets\\_Assets\\code\\demo6\\GunSwitcher.cs",
+              "ToolTip": "D:\\game demo\\game_clone_driver\\demogame3d_1\\Assets\\_Assets\\code\\demo6\\GunSwitcher.cs",
+              "RelativeToolTip": "Assets\\_Assets\\code\\demo6\\GunSwitcher.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwCQAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T18:35:12.84Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
