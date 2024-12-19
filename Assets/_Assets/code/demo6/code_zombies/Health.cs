@@ -1,12 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Health : MonoBehaviour
 {
     public int maxHealthPoint;
     public Animator anim;
     private int healthPoint;
+
+    public UnityEvent onDie;
     private bool IsDead => healthPoint <= 0;
 
     void Start()
@@ -14,15 +17,24 @@ public class Health : MonoBehaviour
         healthPoint = maxHealthPoint;
     }
 
-   public void TakeDamage(int damage)
+    public void TakeDamage(int damage)
     {
-        if(IsDead) return;
+        Debug.Log($"{damage}:{healthPoint}");
+        if (IsDead) return;
         healthPoint -= damage;
-        if(IsDead)
+        if (IsDead)
         {
             Die();
         }
-        
+
     }
-    private void Die() => anim.SetTrigger("die");
+    private void Die()
+    {
+     
+        anim.SetTrigger("die");
+        Debug.Log(anim);
+
+        onDie.Invoke();
+
+    }
 }

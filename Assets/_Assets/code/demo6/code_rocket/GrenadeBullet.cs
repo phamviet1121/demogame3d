@@ -9,6 +9,10 @@ public class GrenadeBullet : MonoBehaviour
     public float explosionForce;
     public float time;
     public float newtime = 10f;
+
+    public int damage;
+
+    private List<Health> oldvictins = new List<Health>();
     void Start()
     {
         time = newtime;
@@ -39,16 +43,38 @@ public class GrenadeBullet : MonoBehaviour
 
 
     }
-    void BlowObjects()
+    private void BlowObjects()
     {
+        oldvictins.Clear();
         Collider[] affectedObjects = Physics.OverlapSphere(transform.position, explosionRadius);
         for (int i = 0; i < affectedObjects.Length; i++)
         {
-            Rigidbody rb = affectedObjects[i].attachedRigidbody;
-            if (rb)
-            {
-                rb.AddExplosionForce(explosionForce, transform.position, explosionRadius, 1, ForceMode.Impulse);
-            }
+            //Rigidbody rb = affectedObjects[i].attachedRigidbody;
+            //if (rb)
+            //{
+            //    rb.AddExplosionForce(explosionForce, transform.position, explosionRadius, 1, ForceMode.Impulse);
+            //}
+
+            DeliverDamage(affectedObjects[i]);
+            AddForceToObject(affectedObjects[i]);
+
+        }
+    }
+    private void DeliverDamage(Collider victim)
+    {
+        Health health = victim.GetComponentInParent<Health>();
+        if (health != null && !oldvictins.Contains(health))
+        {
+            health.TakeDamage(damage);
+            oldvictins.Add(health);
+        }
+    }
+    private void AddForceToObject(Collider affecterObject)
+    {
+        Rigidbody rb = affecterObject.attachedRigidbody;
+        if (rb)
+        {
+            rb.AddExplosionForce(explosionForce, transform.position, explosionRadius, 1, ForceMode.Impulse);
         }
     }
 }

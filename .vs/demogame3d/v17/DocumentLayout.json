@@ -1,20 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\pc\\demogame3d\\",
+  "WorkspaceRootPath": "D:\\game\\demogame3d\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{86368074-442A-BD50-EDF9-C9A056ED6F24}|Assembly-CSharp.csproj|c:\\users\\pc\\demogame3d\\assets\\_assets\\code\\demo6\\rotetibymouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86368074-442A-BD50-EDF9-C9A056ED6F24}|Assembly-CSharp.csproj|solutionrelative:assets\\_assets\\code\\demo6\\rotetibymouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{86368074-442A-BD50-EDF9-C9A056ED6F24}|Assembly-CSharp.csproj|d:\\game\\demogame3d\\assets\\_assets\\code\\demo6\\code_rifle\\gunraycaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86368074-442A-BD50-EDF9-C9A056ED6F24}|Assembly-CSharp.csproj|solutionrelative:assets\\_assets\\code\\demo6\\code_rifle\\gunraycaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{86368074-442A-BD50-EDF9-C9A056ED6F24}|Assembly-CSharp.csproj|c:\\users\\pc\\demogame3d\\assets\\_assets\\code\\demo6\\moverbykey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86368074-442A-BD50-EDF9-C9A056ED6F24}|Assembly-CSharp.csproj|solutionrelative:assets\\_assets\\code\\demo6\\moverbykey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{86368074-442A-BD50-EDF9-C9A056ED6F24}|Assembly-CSharp.csproj|D:\\game\\demogame3d\\assets\\_assets\\code\\demo6\\code_rocket\\grenadebullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86368074-442A-BD50-EDF9-C9A056ED6F24}|Assembly-CSharp.csproj|solutionrelative:assets\\_assets\\code\\demo6\\code_rocket\\grenadebullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\game\\demogame3d\\assets\\_assets\\code\\demo3d_1\\no.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{86368074-442A-BD50-EDF9-C9A056ED6F24}|Assembly-CSharp.csproj|d:\\game\\demogame3d\\assets\\_assets\\code\\demo6\\code_rifle\\singleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86368074-442A-BD50-EDF9-C9A056ED6F24}|Assembly-CSharp.csproj|solutionrelative:assets\\_assets\\code\\demo6\\code_rifle\\singleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\game\\demogame3d\\Assets\\_Assets\\code\\demo3d_1\\banggocquay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{86368074-442A-BD50-EDF9-C9A056ED6F24}|Assembly-CSharp.csproj|D:\\game\\demogame3d\\assets\\_assets\\code\\demo6\\code_rifle\\hiteffectmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86368074-442A-BD50-EDF9-C9A056ED6F24}|Assembly-CSharp.csproj|solutionrelative:assets\\_assets\\code\\demo6\\code_rifle\\hiteffectmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86368074-442A-BD50-EDF9-C9A056ED6F24}|Assembly-CSharp.csproj|D:\\game\\demogame3d\\assets\\_assets\\code\\demo6\\code_rifle\\hitsurface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86368074-442A-BD50-EDF9-C9A056ED6F24}|Assembly-CSharp.csproj|solutionrelative:assets\\_assets\\code\\demo6\\code_rifle\\hitsurface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86368074-442A-BD50-EDF9-C9A056ED6F24}|Assembly-CSharp.csproj|D:\\game\\demogame3d\\assets\\_assets\\code\\demo6\\code_rifle\\automaticshooting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86368074-442A-BD50-EDF9-C9A056ED6F24}|Assembly-CSharp.csproj|solutionrelative:assets\\_assets\\code\\demo6\\code_rifle\\automaticshooting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86368074-442A-BD50-EDF9-C9A056ED6F24}|Assembly-CSharp.csproj|D:\\game\\demogame3d\\assets\\_assets\\code\\demo6\\code_zombies\\ragdollswitcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86368074-442A-BD50-EDF9-C9A056ED6F24}|Assembly-CSharp.csproj|solutionrelative:assets\\_assets\\code\\demo6\\code_zombies\\ragdollswitcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86368074-442A-BD50-EDF9-C9A056ED6F24}|Assembly-CSharp.csproj|D:\\game\\demogame3d\\assets\\_assets\\code\\demo6\\code_zombies\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86368074-442A-BD50-EDF9-C9A056ED6F24}|Assembly-CSharp.csproj|solutionrelative:assets\\_assets\\code\\demo6\\code_zombies\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,53 +42,108 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RotetiByMouse.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\demogame3d\\Assets\\_Assets\\code\\demo6\\RotetiByMouse.cs",
-              "RelativeDocumentMoniker": "Assets\\_Assets\\code\\demo6\\RotetiByMouse.cs",
-              "ToolTip": "C:\\Users\\pc\\demogame3d\\Assets\\_Assets\\code\\demo6\\RotetiByMouse.cs",
-              "RelativeToolTip": "Assets\\_Assets\\code\\demo6\\RotetiByMouse.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAA1wCMAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T13:08:58.71Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MoverByKey.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\demogame3d\\Assets\\_Assets\\code\\demo6\\MoverByKey.cs",
-              "RelativeDocumentMoniker": "Assets\\_Assets\\code\\demo6\\MoverByKey.cs",
-              "ToolTip": "C:\\Users\\pc\\demogame3d\\Assets\\_Assets\\code\\demo6\\MoverByKey.cs",
-              "RelativeToolTip": "Assets\\_Assets\\code\\demo6\\MoverByKey.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T13:00:41.111Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "no.cs",
-              "DocumentMoniker": "D:\\game\\demogame3d\\Assets\\_Assets\\code\\demo3d_1\\no.cs",
-              "ToolTip": "D:\\game\\demogame3d\\Assets\\_Assets\\code\\demo3d_1\\no.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAYwB0AAAAYAAAA",
+              "Title": "Singleton.cs",
+              "DocumentMoniker": "D:\\game\\demogame3d\\Assets\\_Assets\\code\\demo6\\code_Rifle\\Singleton.cs",
+              "RelativeDocumentMoniker": "Assets\\_Assets\\code\\demo6\\code_Rifle\\Singleton.cs",
+              "ToolTip": "D:\\game\\demogame3d\\Assets\\_Assets\\code\\demo6\\code_Rifle\\Singleton.cs",
+              "RelativeToolTip": "Assets\\_Assets\\code\\demo6\\code_Rifle\\Singleton.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T18:51:27.96Z"
+              "WhenOpened": "2024-12-19T05:02:12.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HitSurface.cs",
+              "DocumentMoniker": "D:\\game\\demogame3d\\Assets\\_Assets\\code\\demo6\\code_Rifle\\HitSurface.cs",
+              "RelativeDocumentMoniker": "Assets\\_Assets\\code\\demo6\\code_Rifle\\HitSurface.cs",
+              "ToolTip": "D:\\game\\demogame3d\\Assets\\_Assets\\code\\demo6\\code_Rifle\\HitSurface.cs",
+              "RelativeToolTip": "Assets\\_Assets\\code\\demo6\\code_Rifle\\HitSurface.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T18:52:33.205Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "banggocquay.cs",
-              "DocumentMoniker": "D:\\game\\demogame3d\\Assets\\_Assets\\code\\demo3d_1\\banggocquay.cs",
-              "ToolTip": "D:\\game\\demogame3d\\Assets\\_Assets\\code\\demo3d_1\\banggocquay.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAuAAAA",
+              "Title": "HitEffectManager.cs",
+              "DocumentMoniker": "D:\\game\\demogame3d\\Assets\\_Assets\\code\\demo6\\code_Rifle\\HitEffectManager.cs",
+              "RelativeDocumentMoniker": "Assets\\_Assets\\code\\demo6\\code_Rifle\\HitEffectManager.cs",
+              "ToolTip": "D:\\game\\demogame3d\\Assets\\_Assets\\code\\demo6\\code_Rifle\\HitEffectManager.cs",
+              "RelativeToolTip": "Assets\\_Assets\\code\\demo6\\code_Rifle\\HitEffectManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T18:45:01.631Z"
+              "WhenOpened": "2024-12-18T18:50:54.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Gunraycaster.cs",
+              "DocumentMoniker": "D:\\game\\demogame3d\\Assets\\_Assets\\code\\demo6\\code_Rifle\\Gunraycaster.cs",
+              "RelativeDocumentMoniker": "Assets\\_Assets\\code\\demo6\\code_Rifle\\Gunraycaster.cs",
+              "ToolTip": "D:\\game\\demogame3d\\Assets\\_Assets\\code\\demo6\\code_Rifle\\Gunraycaster.cs",
+              "RelativeToolTip": "Assets\\_Assets\\code\\demo6\\code_Rifle\\Gunraycaster.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAswBoAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T22:33:07.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RagdollSwitcher.cs",
+              "DocumentMoniker": "D:\\game\\demogame3d\\Assets\\_Assets\\code\\demo6\\code_zombies\\RagdollSwitcher.cs",
+              "RelativeDocumentMoniker": "Assets\\_Assets\\code\\demo6\\code_zombies\\RagdollSwitcher.cs",
+              "ToolTip": "D:\\game\\demogame3d\\Assets\\_Assets\\code\\demo6\\code_zombies\\RagdollSwitcher.cs",
+              "RelativeToolTip": "Assets\\_Assets\\code\\demo6\\code_zombies\\RagdollSwitcher.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwDYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T21:28:50.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Health.cs",
+              "DocumentMoniker": "D:\\game\\demogame3d\\Assets\\_Assets\\code\\demo6\\code_zombies\\Health.cs",
+              "RelativeDocumentMoniker": "Assets\\_Assets\\code\\demo6\\code_zombies\\Health.cs",
+              "ToolTip": "D:\\game\\demogame3d\\Assets\\_Assets\\code\\demo6\\code_zombies\\Health.cs",
+              "RelativeToolTip": "Assets\\_Assets\\code\\demo6\\code_zombies\\Health.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T22:23:10.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GrenadeBullet.cs",
+              "DocumentMoniker": "D:\\game\\demogame3d\\Assets\\_Assets\\code\\demo6\\code_rocket\\GrenadeBullet.cs",
+              "RelativeDocumentMoniker": "Assets\\_Assets\\code\\demo6\\code_rocket\\GrenadeBullet.cs",
+              "ToolTip": "D:\\game\\demogame3d\\Assets\\_Assets\\code\\demo6\\code_rocket\\GrenadeBullet.cs",
+              "RelativeToolTip": "Assets\\_Assets\\code\\demo6\\code_rocket\\GrenadeBullet.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAkwDAAAABgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T21:16:12.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AutomaticShooting.cs",
+              "DocumentMoniker": "D:\\game\\demogame3d\\Assets\\_Assets\\code\\demo6\\code_Rifle\\AutomaticShooting.cs",
+              "RelativeDocumentMoniker": "Assets\\_Assets\\code\\demo6\\code_Rifle\\AutomaticShooting.cs",
+              "ToolTip": "D:\\game\\demogame3d\\Assets\\_Assets\\code\\demo6\\code_Rifle\\AutomaticShooting.cs",
+              "RelativeToolTip": "Assets\\_Assets\\code\\demo6\\code_Rifle\\AutomaticShooting.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAQwDMAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T23:04:18.726Z"
             }
           ]
         }

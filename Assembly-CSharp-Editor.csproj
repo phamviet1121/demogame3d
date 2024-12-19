@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{3C18562D-D65F-9A1D-6C96-3D147B2F3008}</ProjectGuid>
+    <ProjectGuid>{F49E8928-8486-D685-AD5D-98EC46C17464}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -1087,31 +1087,31 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{DDC69F1E-5CBE-3151-9B34-6A1718768E32}</Project>
+      <Project>{86368074-442A-BD50-EDF9-C9A056ED6F24}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
     <ProjectReference Include="CFXR.WelcomeScreen.csproj">
-      <Project>{E2B7DF84-A6B2-FF4C-A4F4-317B91FCF3CA}</Project>
+      <Project>{EDA19FBF-4B66-9753-C5FA-DC9B7A78E7AA}</Project>
       <Name>CFXR.WelcomeScreen</Name>
     </ProjectReference>
     <ProjectReference Include="KinoBloom.Runtime.csproj">
-      <Project>{EEC7619F-EF3E-CABC-9E66-623BE7380510}</Project>
+      <Project>{7AF6B4E3-1BF9-313B-6703-14B72E19418C}</Project>
       <Name>KinoBloom.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="ToonyColorsPro.Demo.Editor.csproj">
-      <Project>{2E88A6A9-266F-55C8-FB87-E292ED311553}</Project>
+      <Project>{11899FD1-A265-D84D-CD40-0DF2D1183DEF}</Project>
       <Name>ToonyColorsPro.Demo.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="CFXRRuntime.csproj">
-      <Project>{58C7C547-EE7C-C117-56E5-0DB93E9CC51D}</Project>
+      <Project>{A610A836-36D7-CF3D-AEC1-73CED0E50A0D}</Project>
       <Name>CFXRRuntime</Name>
     </ProjectReference>
     <ProjectReference Include="CFXREditor.csproj">
-      <Project>{9E9FB5D9-A101-806E-2FE8-A9EE930706AA}</Project>
+      <Project>{CC1A3A4B-9961-33CE-E901-759BCE72AF02}</Project>
       <Name>CFXREditor</Name>
     </ProjectReference>
     <ProjectReference Include="CFXRDemo.csproj">
-      <Project>{62330FCF-E575-4672-9539-6C9ABDAFFEFF}</Project>
+      <Project>{3536AC4F-2A9A-0F8A-99E1-280BC0785818}</Project>
       <Name>CFXRDemo</Name>
     </ProjectReference>
   </ItemGroup>
