@@ -36,6 +36,7 @@ public class RagdollSwitcher : MonoBehaviour
     [ContextMenu("EnableRagdoll")]
     public void EnableRagdoll()
     {
+        anim.SetTrigger("die");
         SetRagdoll(true);
     }
     [ContextMenu("DisableRagdoll")]
