@@ -27,7 +27,7 @@ public class AutomaticShooting : Shooting
     // Update is called once per frame
     void Update()
     {
-        if( Input.GetKey(KeyCode.J))
+        if( Input.GetKey(KeyCode.J) || Input.GetMouseButton(0))
         {
             UpdateFiring();
         }    

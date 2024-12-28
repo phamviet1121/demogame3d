@@ -36,7 +36,7 @@ public class Singleton<R> : MonoBehaviour where R : MonoBehaviour
         //if (newInstance == null) { return; }
         if (newInstance == null)return;
         _instance=newInstance;
-        DontDestroyOnLoad(_instance.transform.root);
+        //DontDestroyOnLoad(_instance.transform.root);
     }    
 
 

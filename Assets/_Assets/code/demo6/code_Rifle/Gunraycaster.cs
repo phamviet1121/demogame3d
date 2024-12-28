@@ -45,11 +45,11 @@ public class Gunraycaster : MonoBehaviour
     }    
     private void deliveDamage(RaycastHit hitInfo)
     {
-        Debug.Log($"đã bắn chưa  "); 
+        //Debug.Log($"đã bắn chưa  "); 
         Health health = hitInfo.collider.GetComponentInParent<Health>();
         if (health != null)
         { 
-            Debug.Log($"có chay ko ");
+            //Debug.Log($"có chay ko ");
             health.TakeDamage(damage);
         }
     }

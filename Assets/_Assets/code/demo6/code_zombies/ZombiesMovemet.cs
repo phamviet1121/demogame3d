@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
@@ -11,6 +11,7 @@ public class ZombiesMovemet : MonoBehaviour
     public NavMeshAgent agent;
     public float reachingRadius;
 
+    public float rotationSpeed;
     public UnityEvent onDestinationReached;
     public UnityEvent onStartMoving;
 
@@ -54,7 +55,7 @@ public class ZombiesMovemet : MonoBehaviour
         {
             agent.SetDestination(playerFoot.position);
         }
-
+       
 
         //if (distance > reachingRadius)
         //{
@@ -67,10 +68,34 @@ public class ZombiesMovemet : MonoBehaviour
         //    agent.isStopped = true;
         //    anim.SetBool("IsWalking", false);
         //}
-        if (anim.GetBool("die"))
+        //if (anim.GetBool("die"))
+        //{
+        //    agent.isStopped = true;
+        //}
+    }
+    public void Ondie()
+    {
+        enabled = false;
+        agent.isStopped = true;
+    }
+    public void rotationZombie()
+    {
+        //Vector3 direction = (playerFoot.position - transform.position).normalized;
+        //if (direction != Vector3.zero) 
+        //{
+        //    Quaternion lookRotation = Quaternion.LookRotation(new Vector3(direction.x, 0, direction.z));
+        //    transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * rotationSpeed);
+        //}
+        // Tính toán hướng từ zombie đến player
+        Vector3 direction = (playerFoot.position - transform.position).normalized;
+
+        if (direction != Vector3.zero)
         {
-            agent.isStopped = true;
+            // Tính toán góc cần quay
+            Quaternion lookRotation = Quaternion.LookRotation(new Vector3(direction.x, 0, direction.z));
+
+            // Chuyển đổi góc quay hiện tại theo thời gian từng bước nhỏ
+            transform.rotation = Quaternion.RotateTowards(transform.rotation, lookRotation, rotationSpeed * Time.deltaTime);
         }
     }
-
 }
