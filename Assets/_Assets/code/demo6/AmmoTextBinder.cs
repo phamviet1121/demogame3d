@@ -11,6 +11,7 @@ public class AmmoTextBinder : MonoBehaviour
     void Start()
     {
         onstart();
+        updateGunAmmo();
     }
     public void onstart() => gunAmmo.loadeedAmmoChanged.AddListener(updateGunAmmo);
 

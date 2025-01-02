@@ -6,7 +6,7 @@ using UnityEngine.Events;
 
 public class ZombiesMovemet : MonoBehaviour
 {
-    public Transform playerFoot;
+    private Transform playerFoot;
     public Animator anim;
     public NavMeshAgent agent;
     public float reachingRadius;
@@ -40,9 +40,9 @@ public class ZombiesMovemet : MonoBehaviour
             onDestinationReached.Invoke();
         }    
     }    
-    void Start()
+    private void Start()
     {
-
+        playerFoot = Player.instance.playerFoot;
     }
 
     // Update is called once per frame

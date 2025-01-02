@@ -66,10 +66,16 @@ public class Gunraycaster : MonoBehaviour
         Rigidbody rb = hitInfo.collider.attachedRigidbody;
         if (rb != null)
         {
-           
-            Vector3 forceDirection = hitInfo.normal; 
-            // Tác dụng lực tại vị trí va chạm
-            rb.AddForceAtPosition(forceDirection * 5f, hitInfo.point, ForceMode.Impulse);
+
+            //Vector3 forceDirection = hitInfo.normal; 
+            //// Tác dụng lực tại vị trí va chạm
+            //rb.AddForceAtPosition(forceDirection * 5f, hitInfo.point, ForceMode.Impulse);
+            if (rb.gameObject.CompareTag("zomebie")) // Sử dụng tag "Zombie"
+            {
+                Vector3 forceDirection = hitInfo.normal;
+                // Tác dụng lực tại vị trí va chạm
+                rb.AddForceAtPosition(forceDirection * 5f, hitInfo.point, ForceMode.Impulse);
+            }
         }
     }
 }

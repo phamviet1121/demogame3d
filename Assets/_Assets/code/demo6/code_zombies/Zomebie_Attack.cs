@@ -101,7 +101,7 @@ public class Zomebie_Attack : MonoBehaviour
 {
     public Animator anim;
     public int damage;
-    public Health playerhealth;
+    private Health playerhealth;
 
 
 
@@ -113,6 +113,10 @@ public class Zomebie_Attack : MonoBehaviour
     public GameObject palm_zomebie_right;
     public float explosionRadius;
 
+    private void Start()
+    {
+        playerhealth=Player.instance.health;
+    }
     public void StartAttack()
     {
 

@@ -34,6 +34,7 @@ public class GunAmmo : MonoBehaviour
     void Start()
     {
         RefillAmmo();
+       // loadeedAmmoChanged.Invoke();
     }
 
     public void SingleFireAmmoCounter() => loadedAmmo--;
