@@ -12,6 +12,6 @@ EditorBuildSettings:
     path: Assets/_Assets/Scenes/demo6/main_menu.unity
     guid: 2a5bac7a2d0363444a6b9514bc8582c8
   - enabled: 1
-    path: Assets/Hellgate/Scenes/HellgateEmpty.unity
-    guid: cad739291b20346a9b21c987b42dd6fb
+    path: Assets/_Assets/Scenes/demo5.unity
+    guid: 248c8b1b6085c2e45b7e86a69c451b1c
   m_configObjects: {}

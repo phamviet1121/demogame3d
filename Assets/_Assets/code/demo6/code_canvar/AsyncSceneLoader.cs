@@ -4,13 +4,13 @@ using UnityEngine.SceneManagement;
 public class AsyncSceneLoader : MonoBehaviour
 {
     public ProgressBar progressBar; // Thanh hiển thị tiến trình
-    public string sceneName;        // Tên của cảnh cần tải
+   // public string sceneName;        // Tên của cảnh cần tải
     public float fakeDuration = 2f; // Thời gian giả lập tải cảnh
 
     private AsyncOperation loadingOperation;
     private float startTime;
 
-    public void StartLoadScene()
+    public void StartLoadScene(string sceneName)
     {
         // Kích hoạt đối tượng và thiết lập thời gian bắt đầu
         gameObject.SetActive(true);

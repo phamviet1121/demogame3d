@@ -14,7 +14,7 @@ public class Health : MonoBehaviour
 
     //public HealthBar HealthBar;
     private int _healthPointValue;
-    private int healthPoint
+    public int healthPoint
     {
         get => _healthPointValue;
         set
