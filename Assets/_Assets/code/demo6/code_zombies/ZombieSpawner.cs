@@ -53,13 +53,13 @@ public class ZombieSpawner : MonoBehaviour
     {
         _spawnQuantity = spawnQuantity;
         ZombieCount_txt.text = GetZombieCount().ToString();
-        // StartCoroutine(SpawnZombiesByTime());
+         StartCoroutine(SpawnZombiesByTime());
     }
     private void Update()
     {
         ZombieCount_txt.text = GetZombieCount().ToString();
         GetZombieCount();
-        kill_ZombieCount_txt.text = GetKilledZombieCount().ToString();
+        kill_ZombieCount_txt.text ="Kill : " + GetKilledZombieCount().ToString();
         if (GetKilledZombieCount() == _spawnQuantity)
         {
             // Debug.Log($"{GetKilledZombieCount()} : {_spawnQuantity}");
